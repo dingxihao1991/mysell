@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.101.188/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+
+#server 的配置
+server:
+  context-path: /sell
+
+#日志文件的路径变量给logback 使用
+LogPath_error: E:\error
+LogPath_info: E:\info

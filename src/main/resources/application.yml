@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: dev
+  #jackson:   控制器返回json 的时候 去掉为null 的字段
+   #  default-property-inclusion: non_null
